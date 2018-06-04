@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 940px){
+
+    .content{
+      width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .centre-picture{
+      order:0;
+      width:100%;
+    }
+
+    .project-info {
+			width: 100%;
+			margin-left: -5px;
+      align-items: center;
+      flex-direction: row;
+		}
+
+    .featured-work {
+      order:1;
+      width:100%;
+    }
+
+    .appify{
+      order:2;
+      width:33.3%;
+      padding:15px;
+    }
+
+    .sunflower{
+      order:2;
+      width:33.3%;
+      padding:15px;
+    }
+
+    .bokeh{
+      order:2;
+      width:33.3%;
+      padding:15px;
+    }
+
+	}
+
+
+	@media screen and (max-width: 760px) {
+		.header {
+			flex-direction: column;
+			align-items: center;
+		}
+		.sub-title {
+			text-align: center;
+		}
+
+		.project-info {
+			flex-direction: column;
+			align-items: center;
+		}
+		.project-info img {
+			max-width: 664px;
+			width: 100%;
+			height: auto;
+			margin-left: 0px;
+		}
+	}
